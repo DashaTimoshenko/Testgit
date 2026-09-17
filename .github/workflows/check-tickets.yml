@@ -38,7 +38,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add prices.csv
           if git diff --cached --quiet; then
-            echo "No CSV changes"
+            echo "No CSV changes found"
           else
             git commit -m "Update ticket prices"
             git push
