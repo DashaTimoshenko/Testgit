@@ -1,4 +1,4 @@
-name: Check SkyUp ticket price
+name: Check SkyUp ticket price 2
 
 on:
   schedule:
