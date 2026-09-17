@@ -2,7 +2,7 @@ name: Check SkyUp ticket price
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "40 * * * *"
   workflow_dispatch:
 
 permissions:
